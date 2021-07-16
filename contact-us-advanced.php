@@ -14,7 +14,7 @@ require 'php/php-mailer/src/Exception.php';
 $email = 'ben.l@saunitedsoccer.com';
 
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
-$debug = 0;
+$debug = 2;
 
 if(isset($_POST['emailSent'])) {
 
